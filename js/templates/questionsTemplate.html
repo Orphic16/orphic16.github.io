@@ -1,0 +1,9 @@
+<fieldset class="question-fieldset">
+	<h4 id="question-title" class="question-title-container"><%- title %></h4>
+	<div class="answers">
+		<% _.each(selectableAnswers, function(answer) { %>
+			<input type="radio" name="<%= id %>" value="<%= answer %>"><%= answer %></br> 
+		<% }); %>
+	</div> 
+	 <a class="btn btn-lg btn-success submit" href="javascript:void(0)" role="button">Submit</a>
+</fieldset>
