@@ -1,0 +1,184 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width: 768px) {
+/* Styles */
+	*, html {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	h2 {
+		font-size: 2.5em;
+	}
+	
+	.h01, .f01 {
+		font-size: 2.8em;
+	}
+	
+	.hfont {
+		font-size: 1em;
+	}
+	
+	#container {
+		background-color: transparent;
+		width: 100%;
+	}
+
+	#header {
+		background-image: url('../img/bg1.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+		width: 100%;
+	}
+
+	#header-center {
+		width: 100%;
+		height: 100vh;
+		padding: 0 30px;
+		margin: 0 auto;
+		top: 26%;
+		position: absolute;
+	}
+	
+	#details-left {
+		border-bottom: 2px solid #CCC;
+		float: left;
+		height: auto;
+		margin: 100px 0 0 0;
+		padding-bottom: 100px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#details-right {
+		float: left;
+		height: auto;
+		margin: 100px 0 0 0;
+		padding-bottom: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#add-title {
+		background-color: #fff;
+		background-image: url('../img/RKM_16.jpg');
+		background-position: 62% 70%;
+		background-repeat: no-repeat;
+		background-size: 200%;
+		color: #fff;
+		float: left;
+		height: auto;
+		padding: 250px 50px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#additional {
+		background-color: #FFF;
+		float: left;
+		height: auto;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#column {
+		float: left;
+		width: 100%;
+		padding: 100px 30px;
+		height: auto;
+		box-sizing: border-box;
+		text-align: justify;
+	}
+
+	#row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	#lodge-title {
+		background-color: #fff;
+		background-image: url('../img/mv-2.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		float: left;
+		height: auto;
+		padding: 300px 50px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#lodging {
+		background-color: #fff;
+		display: block;
+		float: left;
+		height: auto;
+		padding: 0;
+		text-align: center;
+		width: 100%;
+	}
+
+	#lodge-left {
+		border-right: 1px solid #CCC;
+		float: left;
+		height: auto;
+		margin: 100px 0;
+		text-align: center;
+		width: 50%;
+	}
+
+	#lodge-right {
+		float: left;
+		height: auto;
+		margin: 100px 0;
+		text-align: center;
+		width: 49%
+	}
+
+	#reg-title {
+		background-color: #fff;
+		background-image: url('../img/RKM_63.jpg');
+		background-position: 40% 57%;
+		background-repeat: no-repeat;
+		background-size: 250%;
+		color: #fff;
+		float: left;
+		height: auto;
+		padding: 300px 50px;
+		text-align: center;
+		width: 100%;
+	}
+
+	#registry {
+		background-color: #fff;
+		float: left;
+		height: auto;
+		padding: 200px 50px;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.target {
+	height: 40%;
+	width: 40%;
+}
+
+	#footer-title {
+		background-color: #fff;
+		background-image: url('../img/gc3.jpg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		color: #fff;
+		float: left;
+		height: auto;
+		padding: 200px 50px;
+		text-align: center;
+		width: 100%;
+	}
+}
